@@ -119,8 +119,11 @@ app.post("/projects/compose",function(req,res){
   });
 });
 
-
+// For testing purposes
+// app.listen(3000, function() {
+//   console.log("Server started on port 3000");
+// });
 http.createServer(function(request,response){
-  response.writeHead(200,{"Content-Type","text/plain"})
+  response.writeHead(200,{"Content-Type":"text/plain"})
   response.end("Hello World\n")
 }).listen(process.env.PORT);
