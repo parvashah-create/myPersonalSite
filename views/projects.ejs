@@ -1,0 +1,132 @@
+<%- include("partials/header") -%>
+<!--------------------------------------------------- Projects Landing Page --------------------------------------------------------->
+<section class="projects-landing">
+  <div>
+    <div class="animate-me">
+      projects & projects
+    </div>
+    <div class="animate-me">
+      projects & projects
+    </div>
+    <div class="animate-me">
+      projects & projects
+    </div>
+    <div class="animate-me">
+      projects & projects
+    </div>
+    <div class="animate-me">
+      projects & projects
+    </div>
+    <div class="animate-me">
+      projects&projects
+    </div>
+  </div>
+</section>
+<!---------------------------------- function for finding unique values in aaray ----------------------------->
+<% 
+function onlyUnique(value, index, self) { 
+  return self.indexOf(value) === index;
+
+  console.log("onlyUnique function is working!"); 
+} 
+%>
+
+<!----------------------------------------------------- push all tags in array -------------------------------------------------------->
+<% let allTags = [] ;
+posts.forEach(function(post){ 
+ post.tags.forEach(function(item){ 
+ allTags.push(item); 
+ }); 
+ }); 
+ %> 
+<!----------------------------------------------------- Feature to cycle through different colors -------------------------------------->
+<%
+let color = ["#023E8A"];
+let presentColor = "";
+let i = 0;
+function cycleColor(){
+  if (color.length == i+1) {
+    i = 0 ;
+    presentColor = color[i]; 
+    return presentColor;
+  } else {
+    i = i+1;
+    presentColor = color[i];
+    return presentColor;
+  } 
+}
+%>
+
+<!-------------------------------------------------------------------------------------------------------------------------------------->
+<div class="album py-5 project-box">
+  <div class="dropdown show filter-box">
+    <a class="btn btn-outline-light dropdown-toggle filter" href="#" role="button" id="dropdownMenuLink"
+      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Filter <i class="fa-solid fa-filter"></i>
+    </a>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <form class="" method="get" action="/projects/filter">
+        <button class="dropdown-item d-flex align-items-center gap-2 py-2" href="/projects/filter"
+          name="All">All</button>
+          
+          <!-- Only Unique tags displayed in the list-->
+        <% allTags.sort().filter(onlyUnique).forEach(function(item){ %>
+        <ul class="list-unstyled mb-0">
+          <li>
+            <button class="dropdown-item d-flex align-items-center gap-2 py-2" href="/projects/filter" name="<%=item%>">
+              <%=item%>
+            </button>
+          </li>
+        </ul>
+        <% }) %>
+
+      </form>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      
+      <!-- print project posts -->
+      <%  posts.forEach(function(post){ %>
+      <div class="col-md-4">
+        <div class="card-container card mb-4 shadow-sm" style="outline-color:<%=cycleColor()%>;border:none;">
+          <div class="img-container">
+            <img class="bd-placeholder-img project-img" src="<%=post.image%>" alt="">
+          </div>
+
+          <div class="card-body">
+            <h5 class="card-title"><%=post.title%></h5>
+            
+            <!-- print tags  -->
+            <p class="tag-text">Tags: </p>
+            <% post.tags.sort().forEach(function(item){ %>
+            <p class="tag" id="tag"><%= item %></p>
+            <% allTags.push(item) %>
+            <% }) %>
+              <!--limit characters  -->
+            <p class="card-text"><%=post.des.substring(0, 200) + " ..."%></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="">
+                <button type="button" class="btn btn-outline-light hvr-icon-pulse-grow"
+                  onclick=" window.open('<%=post.link%>','_blank')"
+                  style="border-color:<%=presentColor%>;color:<%=presentColor%>;">
+                  Details <i class="fa-solid fa-circle-info hvr-icon"></i></button>
+
+                <button type="submit" class="btn btn-dark hvr-icon-wobble-horizontal"
+                  style="background-color:<%=presentColor%>;border-color:<%=presentColor%>"
+                  onclick=" window.open('<%=post.view%>','_blank')">View <i
+                    class="fa-solid fa-eye hvr-icon"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <% }) %>
+
+    </div>
+  </div>
+</div>
+
+
+
+<%- include("partials/footer") -%>

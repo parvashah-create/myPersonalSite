@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "animejs": "^3.2.1",
+    "body-parser": "^1.20.0",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.6.0",
+    "letterizejs": "^2.0.1",
+    "lodash": "^4.17.21",
+    "magicmouse.js": "^1.2.1",
+    "matter-js": "^0.18.0",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.3",
+    "nodemailer": "^6.7.5",
+    "particles.js": "^2.0.0",
+    "typed.js": "^2.0.12"
+  },
+  "name": "mysiteclean",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

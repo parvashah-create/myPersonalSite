@@ -1,0 +1,56 @@
+
+<%- include("partials/header") -%>
+<style>
+.d-flex {
+  flex-direction: column;
+    align-items: center;
+}
+.form-group {
+  margin: 1rem 0;
+}
+label {
+  color: white;
+}
+.compose-title {
+  color: white;
+}
+.compose {
+  padding: 4rem 0;
+}
+</style>
+<section class="compose"></section>
+<h1 class="compose-title" >Compose</h1>
+<form  action="/projects/compose" method="post" class="d-flex">
+<div class="col-md-6">
+
+<div class="form-group">
+  <label for="">Title</label>
+  <input type="text" class="form-control" name="projectTitle" value="" required>
+</div>
+<div class="form-group">
+  <label for="">Description</label>
+  <textarea name="projectBody" rows="8" cols="80" class="form-control"></textarea>
+</div>
+<div class="form-group">
+  <label for="">Source-Link</label>
+  <input type="text" class="form-control" name="projectLink" value="" required>
+</div>
+<div class="form-group">
+  <label for="">View-Link</label>
+  <input type="text" class="form-control" name="viewLink" value="" required>
+</div>
+<div class="form-group">
+  <label>Image Link</label>
+  <input type="text" class="form-control" name="imageLink" value="" required>
+</div>  
+<div class="form-group">
+  <label>Tags: Use space to seperate tags</label>
+  <input type="text" class="form-control" name="projectTags" value="" required>
+</div>  
+
+<button type="submit" class="btn btn-light post-btn" name="composeBtn">Post</button>
+</div>
+</form>
+</section>
+
+<%- include("partials/footer") -%>
