@@ -31,7 +31,7 @@ const Project = mongoose.model("project",projectSchema);
 
 // ---------------------------------------GET-PAGES-----------------------------------------------------------------------------------
 app.get("/",function(req,res){
-  res.sendFile('C:/Users/Administrator/Documents/Web Development/mySite Clean/public/home.html');
+  res.sendFile('C:/Users/Administrator/Documents/Web Development/mySiteClean/public/home.html');
 });
 
 app.get("/projects",function(req,res){
@@ -120,11 +120,11 @@ app.post("/projects/compose",function(req,res){
 });
 
 // For testing purposes
-// app.listen(process.env.PORT || 3000, function() {
-//   console.log("Server started on port 3000");
-// });
+app.listen(process.env.PORT || 3000, function() {
+  console.log("Server started on port 3000");
+});
 
-http.createServer(function(request,response){
-  response.writeHead(200,{"Content-Type":"text/plain"});
-  response.end("Hello World\n");
-}).listen(process.env.PORT || 3000);
+// http.createServer(function(request,response){
+//   response.writeHead(200,{"Content-Type":"node"});
+//   response.end("Hello World\n");
+// }).listen(process.env.PORT || 3000);
