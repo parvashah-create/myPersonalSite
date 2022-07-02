@@ -31,7 +31,7 @@ const Project = mongoose.model("project",projectSchema);
 
 // ---------------------------------------GET-PAGES-----------------------------------------------------------------------------------
 app.get("/",function(req,res){
-  res.sendFile('C:/Users/Administrator/Documents/Web Development/mySiteClean/public/home.html');
+  res.sendFile(__dirname + '/public/home.html');
 });
 
 app.get("/projects",function(req,res){
