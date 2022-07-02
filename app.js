@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 app.use("/scripts", express.static(__dirname + '/public/js'));
 
-mongoose.connect('mongodb://localhost:27017/mySiteDB');
+mongoose.connect(process.env.MONGODB_URL || 'mongodb://localhost:27017/mySiteDB');
 
 const projectSchema = {
   title:String,
