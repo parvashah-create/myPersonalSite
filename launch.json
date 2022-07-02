@@ -1,0 +1,10 @@
+{
+    "type": "node",
+    "request": "attach",
+    "name": "Heroku",
+    "address": "localhost",
+    "port": 3000,
+    "protocol": "inspector",
+    "localRoot": "$C:/Users/Administrator/Documents/Web Development/mySiteClean",
+    "remoteRoot": "/app"
+}
