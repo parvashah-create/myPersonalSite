@@ -7,29 +7,40 @@ sans-serif;
 // varibales
 
 // Navabar
-$underline : #000080;
+$underline : #03307f;
 $nav-text : #fff;
 //Home-landing
 $home-bg: #000;
 $arrow: #fff ;
-$arrow-hover: #000080 ;
+$arrow-hover: #03307f;
 // Skills-workx
-$bold-text: #000080;
+$bold-text: #03307f;
 $hover-bg: #6c757d;
-$timeline: #000080;
+$timeline: #03307f;
 // Project-Page
 
 $card-body-bg: #000;
 $project-bg: #adb5bd;
 $tag: #6c757d;
-$blue : #03045e;
+$blue : #03307f;
 $dark : #3d3d3d;
 
 $border-irregular: 0 0.3em;
-$yellow: #03045e;
+$yellow: #03307f;
 $lightgreen: #abedd8;
 $lightblue: #30aab3;
 
+// skills gradient
+$cf0: #03045e;
+$cf1: #032174;
+$cf2: #03307f;
+$cf3: #023e8a;
+$cf4: #015ba0;
+$cf5: #0077b6;
+$cf6: #0096c7;
+$cf7: #00b4d8;
+$cf8: #24bfde;
+$cf9: #48cae4;
 
 
 h1 {
@@ -88,7 +99,7 @@ h1 {
 }
 .arrow-down:hover {
   transition: 0.5s ease-in-out;
-  color: #000080;
+  color: #03307f;
 }
 
 
@@ -178,7 +189,7 @@ canvas {
   transition: all 0.3s ease-in-out;
   opacity: 0.6;
   animation: fade 2s linear;
-  background-color: #000080;
+  background-color: #03307f;
   color: #fff;
 }
 @keyframes fade {
@@ -315,34 +326,34 @@ transition: 0.4s ease-in-out;
 
 // skill bar gradient
 .cf0 {
-  background: $blue;
+  background: $cf0;
 }
 .cf1 {
-  background: #032174;
+  background: $cf1;
 }
 .cf2 {
-  background: #023E8A;
+  background: $cf2;
 }
 .cf3 {
-  background: #015BA0;
+  background: $cf3;
 }
 .cf4 {
-  background: #0077B6;
+  background: $cf4;
 }
 .cf5 {
-  background: #0087BF;
+  background: $cf5;
 }
 .cf6 {
-  background: #00B4D8;
+  background: $cf6;
 }
 .cf7 {
-  background: #24BFDE;
+  background: $cf7;
 }
 .cf8 {
-  background: #48CAE4;
+  background: $cf8;
 }
 .cf9 {
-  background: lighten($color: #48CAE4, $amount: 10%);
+  background: $cf9;
 }
 
 .bar {
@@ -411,7 +422,7 @@ Primary style
 }
  .timelineHeader {
 	 padding: 1rem 0.75rem;
-	 background: #03045e;
+	 background: #03307f;
 	 box-shadow: 0 0 8px rgba(0, 0, 0, 0.5), 0 4px 0 rgba(0, 0, 0, 0.02);
 	 position: relative;
 	 z-index: 3;
@@ -470,10 +481,10 @@ Primary style
    padding: 0.5rem 0.4rem;;
 }
  .timelineBody .timeline li:hover {
-   outline: 2px #03045e solid;
+   outline: 2px #03307f solid;
    transform: scale(1.1);
    border-radius: 0.2rem;
-   box-shadow: 0 0 8px #03045e;
+   box-shadow: 0 0 8px #03307f;
  }
  .timelineBody .timeline .timelineDot {
 	 height: 0.9375rem;
@@ -522,7 +533,7 @@ Primary style
 	 background-color: #f5f5f5;
 }
  .timelineBody::-webkit-scrollbar-thumb {
-	 background-color: #03045e;
+	 background-color: #03307f;
 }
 
 // Contact
@@ -670,7 +681,7 @@ textarea:valid {
   &:before {
     content: "";
     position: absolute;
-    background-color: #000080;
+    background-color: #03307f;
     height: 101%;
     left: -30%;
     top: 0;
@@ -1263,9 +1274,9 @@ text-align: justify;
 ::-webkit-scrollbar-thumb
 {
 	border-radius: 10px;
-  background: #000080;
+  background: #03307f;
   // background: linear-gradient(rgb(134, 239, 172), rgb(59, 130, 246), rgb(147, 51, 234));
   // background: linear-gradient(rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-  // background: linear-gradient( #000080, #0042ad, #0072c9, #009fd9, #48cae4);
+  // background: linear-gradient( #03307f, #0042ad, #0072c9, #009fd9, #03307f);
   // background: linear-gradient( #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 }

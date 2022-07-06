@@ -29,7 +29,7 @@ h1 {
   left: 51%;
   right: 51%;
   bottom: 0;
-  background: #000080;
+  background: #03307f;
   height: 4px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
@@ -67,7 +67,7 @@ h1 {
 .arrow-down:hover {
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
-  color: #000080;
+  color: #03307f;
 }
 
 @-webkit-keyframes bounce {
@@ -125,7 +125,7 @@ canvas {
 .home-box:hover h1 strong {
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
-  color: #000080;
+  color: #03307f;
 }
 
 .typed {
@@ -182,7 +182,7 @@ canvas {
   opacity: 0.6;
   -webkit-animation: fade 2s linear;
           animation: fade 2s linear;
-  background-color: #000080;
+  background-color: #03307f;
   color: #fff;
 }
 
@@ -271,7 +271,7 @@ canvas {
 .carousel-inner:hover h1 strong {
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
-  color: #000080;
+  color: #03307f;
 }
 
 .carousel-control-prev {
@@ -320,7 +320,7 @@ canvas {
 .ch-holder:hover h1 strong {
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
-  color: #000080;
+  color: #03307f;
 }
 
 .ch-wrap h1 strong {
@@ -349,7 +349,7 @@ canvas {
 .wx-container:hover h1 strong {
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
-  color: #000080;
+  color: #03307f;
 }
 
 .cf0 {
@@ -361,35 +361,35 @@ canvas {
 }
 
 .cf2 {
-  background: #023E8A;
+  background: #03307f;
 }
 
 .cf3 {
-  background: #015BA0;
+  background: #023e8a;
 }
 
 .cf4 {
-  background: #0077B6;
+  background: #015ba0;
 }
 
 .cf5 {
-  background: #0087BF;
+  background: #0077b6;
 }
 
 .cf6 {
-  background: #00B4D8;
+  background: #0096c7;
 }
 
 .cf7 {
-  background: #24BFDE;
+  background: #00b4d8;
 }
 
 .cf8 {
-  background: #48CAE4;
+  background: #24bfde;
 }
 
 .cf9 {
-  background: #74d7eb;
+  background: #48cae4;
 }
 
 .bar {
@@ -461,7 +461,7 @@ Primary style
 
 .timelineHeader {
   padding: 1rem 0.75rem;
-  background: #03045e;
+  background: #03307f;
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.5), 0 4px 0 rgba(0, 0, 0, 0.02);
           box-shadow: 0 0 8px rgba(0, 0, 0, 0.5), 0 4px 0 rgba(0, 0, 0, 0.02);
   position: relative;
@@ -512,8 +512,8 @@ Primary style
   left: 31.825px;
   height: 100%;
   z-index: -1;
-  -webkit-box-shadow: 0 0 8px #000080, 0 1px 0 #000080;
-          box-shadow: 0 0 8px #000080, 0 1px 0 #000080;
+  -webkit-box-shadow: 0 0 8px #03307f, 0 1px 0 #03307f;
+          box-shadow: 0 0 8px #03307f, 0 1px 0 #03307f;
 }
 
 .timelineBody .timeline li {
@@ -532,12 +532,12 @@ Primary style
 }
 
 .timelineBody .timeline li:hover {
-  outline: 2px #03045e solid;
+  outline: 2px #03307f solid;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   border-radius: 0.2rem;
-  -webkit-box-shadow: 0 0 8px #03045e;
-          box-shadow: 0 0 8px #03045e;
+  -webkit-box-shadow: 0 0 8px #03307f;
+          box-shadow: 0 0 8px #03307f;
 }
 
 .timelineBody .timeline .timelineDot {
@@ -550,8 +550,8 @@ Primary style
           flex: 0 0 0.9375rem;
   margin-top: 6px;
   margin-right: 6px;
-  -webkit-box-shadow: 0 0 8px #000080;
-          box-shadow: 0 0 8px #000080;
+  -webkit-box-shadow: 0 0 8px #03307f;
+          box-shadow: 0 0 8px #03307f;
 }
 
 .timelineBody .timeline .timelineDot::after {
@@ -561,7 +561,7 @@ Primary style
   left: 9.4px;
   height: 9px;
   width: 9px;
-  background: #000080;
+  background: #03307f;
   border-radius: 50%;
 }
 
@@ -600,7 +600,7 @@ Primary style
 }
 
 .timelineBody::-webkit-scrollbar-thumb {
-  background-color: #03045e;
+  background-color: #03307f;
 }
 
 #contact {
@@ -648,7 +648,7 @@ textarea {
 
 input:focus,
 textarea:focus {
-  border: 3px solid #03045e;
+  border: 3px solid #03307f;
   outline: 0;
 }
 
@@ -686,7 +686,7 @@ textarea:valid {
           box-shadow: none;
   border-top-right-radius: 0.3em;
   display: inline-block;
-  color: #03045e;
+  color: #03307f;
   padding: 5px 10px;
   width: auto;
   font-weight: bold;
@@ -815,7 +815,7 @@ textarea:valid {
 .button:before {
   content: "";
   position: absolute;
-  background-color: #000080;
+  background-color: #03307f;
   height: 101%;
   left: -30%;
   top: 0;
@@ -1046,7 +1046,7 @@ hr {
   .home-box h1 strong {
     -webkit-transition: 0.5s ease-in-out;
     transition: 0.5s ease-in-out;
-    color: #000080;
+    color: #03307f;
   }
   .carousel-inner {
     -webkit-transition: 0.5s ease-in-out;
@@ -1061,7 +1061,7 @@ hr {
   .carousel-inner h1 strong {
     -webkit-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
-    color: #000080;
+    color: #03307f;
   }
   .ch-holder {
     -webkit-filter: grayscale(0%);
@@ -1073,7 +1073,7 @@ hr {
   .ch-holder h1 strong {
     -webkit-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
-    color: #000080;
+    color: #03307f;
   }
   .wx-container {
     background-color: #6c757d;
@@ -1085,7 +1085,7 @@ hr {
   .wx-container h1 strong {
     -webkit-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
-    color: #000080;
+    color: #03307f;
   }
   .carousel-item {
     height: 80vh;
@@ -1460,6 +1460,6 @@ hr {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background: #000080;
+  background: #03307f;
 }
 /*# sourceMappingURL=scssStyle.css.map */
