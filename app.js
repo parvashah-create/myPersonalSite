@@ -64,11 +64,11 @@ app.get("/contact-failure",function(req,res){
   res.render("email-failure");
 });
 // POST-PAGES--------------------------------------------------------------------------------------------------
-app.post("/",async function(req,res){
+app.post("/contact-form",async function(req,res){
   let transporter = nodemailer.createTransport({
     service:'gmail',
     auth: {
-      user: Process.env.EMAIL,  //EMAIL
+      user: process.env.EMAIL,  //EMAIL
       pass: process.env.GMAIL_KEY, //KEY
     },
   })
