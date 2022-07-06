@@ -1043,6 +1043,50 @@ hr {
   .typed {
     font-size: 2rem;
   }
+  .home-box h1 strong {
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    color: #000080;
+  }
+  .carousel-inner {
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+  }
+  .carousel-inner img {
+    -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+  }
+  .carousel-inner h1 strong {
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+    color: #000080;
+  }
+  .ch-holder {
+    -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+    background-color: #6c757d;
+  }
+  .ch-holder h1 strong {
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+    color: #000080;
+  }
+  .wx-container {
+    background-color: #6c757d;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+    -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
+  }
+  .wx-container h1 strong {
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+    color: #000080;
+  }
   .carousel-item {
     height: 80vh;
   }
@@ -1053,8 +1097,8 @@ hr {
     font-size: 1rem;
   }
   .up-btn {
-    -webkit-transform: scale(0.8);
-            transform: scale(0.8);
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
   }
   .ch-wrap h1 {
     margin-bottom: 2rem;
@@ -1228,7 +1272,7 @@ hr {
   color: #fff;
 }
 
-.card-container:hover {
+.card-container {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
   outline-width: 0.25rem;
@@ -1237,7 +1281,7 @@ hr {
           transition-duration: 0.2s;
 }
 
-.card-container:hover .project-img {
+.card-container .project-img {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
   -webkit-transition: all 1s ease-in-out;
