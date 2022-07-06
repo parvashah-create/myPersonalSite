@@ -49,6 +49,7 @@ h1 {
 }
 
 .arrow-down {
+  font-size: 4rem;
   position: absolute;
   left: 47.5%;
   bottom: 5%;
@@ -958,6 +959,9 @@ hr {
 
 /* ---------------------------------------------------------Begin Media Queries--------------------------------------------------------*/
 @media screen and (max-width: 850px) {
+  .arrow-down {
+    font-size: 3rem;
+  }
   .carousel-item {
     height: 90vw;
   }
@@ -1042,6 +1046,9 @@ hr {
   }
   .typed {
     font-size: 2rem;
+  }
+  .arrow-down {
+    font-size: 2.5rem;
   }
   .home-box h1 strong {
     -webkit-transition: 0.5s ease-in-out;
