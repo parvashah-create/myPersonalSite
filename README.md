@@ -13,7 +13,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/parvashah-create/myPersonalSite">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="public/images/internet.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Resume Website</h3>
@@ -88,27 +88,18 @@ This is the source code of the website I have hosted on heroku. If you would lik
 <!-- ROADMAP -->
 ## Details 
 
-* Animated Landing Pages
+* Animated Landing Pages:
 The project is built as a node.js app. This includes HTML, CSS, JS, Bootstrap,Node.js  Jquery and other libraries. Details regarding dependencies can be found in package.json. Some features of the website include:
-
-[![Animated Landing Page][public/images/home-landing.png]](https://polite-crown-00833.herokuapp.com/)
-[![Animated Project Landing Page][public/images/project-landing.png]](https://polite-crown-00833.herokuapp.com/projects)
-
 At the home landing, we can see beautiful responsive animation of particles moving and responding to the cursor. This was done using the particle.js library.
-
 At the Projects landing, we have an animated "Projects & Projects" Letters which move in a mesmerizing way. This effect was achieved using the animate.js and letterize.js libraries.
 
-* Projects Page
-[![Projects Page][public/images/project-landing.png]](https://polite-crown-00833.herokuapp.com/projects)
+* Projects Page:
 The projects page consists of cards which are created by extracted data from the mongoDB server. The Projects are displayed in form of cards which consists the basic information about the project and two buttons which links to the project source and a demo.
 
-* Projects Compose Page
-[![Projects Compose Auth Page][public/images/projects-compose.png]](https://polite-crown-00833.herokuapp.com/projects/8744787)
-[![Projects Compose Page][public/images/project-auth.png]](https://polite-crown-00833.herokuapp.com/projects/8744787)
-
+* Projects Compose Page:
 This page is secured through a authentication page which consists of login and password. Once authentication is completed sucessfully, it renders the projects compose page. This page is a form that uploads new data to the mongoDB server, this actions adds a new project on the projects page.
 
-* Responsiveness 
+* Responsiveness:
 The whole website is made completely responsive so it responds to all screen sizes perfectly. 
 
 
