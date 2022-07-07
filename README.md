@@ -42,7 +42,7 @@
       </ul>
     </li>
     <li><a href="#getting-started">Getting Started</a></li>
-    <li><a href="#prerequisites">Details</a></li>
+    <li><a href="#Details">Details</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -56,7 +56,7 @@
 <br/>
 <div align="center">
   <a href="https://polite-crown-00833.herokuapp.com/">
-     <img src="public/images/home-landing.png" width="60%" object-fit="cover">
+     <img src="public/images/home-landing.png" width="60%">
   </a>
 </div>
 
@@ -94,17 +94,21 @@ At the home landing, we can see beautiful responsive animation of particles movi
      <img src="public/images/home-landing.png" width="60%" object-fit="cover">
   </a>
 </div>
+<br/>
 At the Projects landing, we have an animated "Projects & Projects" Letters which move in a mesmerizing way. This effect was achieved using the animate.js and letterize.js libraries.
 <br/>
+
 <div align="center">
   <a href="https://polite-crown-00833.herokuapp.com/projects">
      <img src="public/images/project-landing.png" width="60%" object-fit="cover">
   </a>
 </div>
 
+<br/>
 * Projects Page:
 The projects page consists of cards which are created by extracted data from the mongoDB server. The Projects are displayed in form of cards which consists the basic information about the project and two buttons which links to the project source and a demo.
 <br/>
+
 <div align="center">
   <a href="https://polite-crown-00833.herokuapp.com/projects">
      <img src="public/images/project-landing.png" width="60%" object-fit="cover">
@@ -114,15 +118,17 @@ The projects page consists of cards which are created by extracted data from the
 * Projects Compose Page:
 This page is secured through a authentication page which consists of login and password. Once authentication is completed sucessfully, it renders the projects compose page. This page is a form that uploads new data to the mongoDB server, this actions adds a new project on the projects page.
 <br/>
+
 <div align="center">
   <a href="https://polite-crown-00833.herokuapp.com/projects">
      <img src="public/images/projects-compose.png" width="60%" object-fit="cover">
   </a>
 </div>
+
 <br/>
 <div align="center">
   <a href="https://polite-crown-00833.herokuapp.com/projects">
-     <img src="public/images/project-compose.png" width="60%" object-fit="cover">
+     <img src="public/images/project-auth.png" width="60%" object-fit="cover">
   </a>
 </div>
 
