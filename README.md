@@ -10,19 +10,16 @@
 
 
 <!-- PROJECT LOGO -->
-<br />
+<br/>
 <div align="center">
   <a href="https://github.com/parvashah-create/myPersonalSite">
-    <img src="public/images/internet.png" alt="Logo" width="80" height="80">
+    <img src="public/images/internet.png" alt="Logo" width="120" height="120">
   </a>
 
 <h3 align="center">Resume Website</h3>
 
   <p align="center">
     Resume Website to host projects.
-    <br />
-    <a href="https://github.com/parvashah-create/myPersonalSite"><strong>Explore the docs »</strong></a>
-    <br />
     <br />
     <a href="https://polite-crown-00833.herokuapp.com/">View Demo</a>
     ·
@@ -44,12 +41,8 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Details</a></li>
-      </ul>
-    </li>
+    <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#prerequisites">Details</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -60,8 +53,13 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+<br/>
+<div align="center">
+  <a href="https://polite-crown-00833.herokuapp.com/">
+     <img src="public/images/home-landing.png" width="60%" object-fit="cover">
+  </a>
+</div>
 
-[![Product Name Screen Shot][]](https://polite-crown-00833.herokuapp.com/)
 
 This a resume website I made to showcase the projects I have worked on thereby, displaying the skills I have gained.
 
@@ -87,17 +85,46 @@ This is the source code of the website I have hosted on heroku. If you would lik
 
 <!-- ROADMAP -->
 ## Details 
-
-* Animated Landing Pages:
 The project is built as a node.js app. This includes HTML, CSS, JS, Bootstrap,Node.js  Jquery and other libraries. Details regarding dependencies can be found in package.json. Some features of the website include:
+* Animated Landing Pages:
 At the home landing, we can see beautiful responsive animation of particles moving and responding to the cursor. This was done using the particle.js library.
+<br/>
+<div align="center">
+  <a href="https://polite-crown-00833.herokuapp.com/">
+     <img src="public/images/home-landing.png" width="60%" object-fit="cover">
+  </a>
+</div>
 At the Projects landing, we have an animated "Projects & Projects" Letters which move in a mesmerizing way. This effect was achieved using the animate.js and letterize.js libraries.
+<br/>
+<div align="center">
+  <a href="https://polite-crown-00833.herokuapp.com/projects">
+     <img src="public/images/project-landing.png" width="60%" object-fit="cover">
+  </a>
+</div>
 
 * Projects Page:
 The projects page consists of cards which are created by extracted data from the mongoDB server. The Projects are displayed in form of cards which consists the basic information about the project and two buttons which links to the project source and a demo.
+<br/>
+<div align="center">
+  <a href="https://polite-crown-00833.herokuapp.com/projects">
+     <img src="public/images/project-landing.png" width="60%" object-fit="cover">
+  </a>
+</div>
 
 * Projects Compose Page:
 This page is secured through a authentication page which consists of login and password. Once authentication is completed sucessfully, it renders the projects compose page. This page is a form that uploads new data to the mongoDB server, this actions adds a new project on the projects page.
+<br/>
+<div align="center">
+  <a href="https://polite-crown-00833.herokuapp.com/projects">
+     <img src="public/images/projects-compose.png" width="60%" object-fit="cover">
+  </a>
+</div>
+<br/>
+<div align="center">
+  <a href="https://polite-crown-00833.herokuapp.com/projects">
+     <img src="public/images/project-compose.png" width="60%" object-fit="cover">
+  </a>
+</div>
 
 * Responsiveness:
 The whole website is made completely responsive so it responds to all screen sizes perfectly. 
