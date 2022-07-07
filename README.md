@@ -103,6 +103,7 @@ At the Projects landing, we have an animated "Projects & Projects" Letters which
      <img src="public/images/project-landing.png" width="60%" object-fit="cover">
   </a>
 </div>
+
 <br>
 
 * Projects Page:
@@ -114,9 +115,12 @@ The projects page consists of cards which are created by extracted data from the
   </a>
 </div>
 
+<br>
+  
 * Projects Compose Page:
 This page is secured through a authentication page which consists of login and password. Once authentication is completed sucessfully, it renders the projects compose page. This page is a form that uploads new data to the mongoDB server, this actions adds a new project on the projects page.
-<br/>
+
+<br>
 
 <div align="center">
   <a href="https://polite-crown-00833.herokuapp.com/projects">
@@ -124,7 +128,7 @@ This page is secured through a authentication page which consists of login and p
   </a>
 </div>
 
-<br/>
+<br>
 <div align="center">
   <a href="https://polite-crown-00833.herokuapp.com/projects">
      <img src="public/images/project-auth.png" width="60%" object-fit="cover">
