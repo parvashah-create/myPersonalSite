@@ -106,7 +106,7 @@ At the Projects landing, we have an animated "Projects & Projects" Letters which
 <br>
 
 * Projects Page:
-The projects page consists of cards which are created by extracted data from the mongoDB server. The Projects are displayed in form of cards which consists the basic information about the project and two buttons which links to the project source and a demo.
+The projects page consists of cards which are created by extracted data from the mongoDB server. The projects section also has filter button which filters through the project tags. The Projects are displayed in form of cards which consists the basic information about the project and two buttons which links to the project source and a demo.
 <br>
 <div align="center">
   <a href="https://polite-crown-00833.herokuapp.com/projects">
