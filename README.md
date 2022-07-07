@@ -10,7 +10,7 @@
 
 
 <!-- PROJECT LOGO -->
-<br/>
+<br>
 <div align="center">
   <a href="https://github.com/parvashah-create/myPersonalSite">
     <img src="public/images/internet.png" alt="Logo" width="120" height="120">
@@ -20,7 +20,7 @@
 
   <p align="center">
     Resume Website to host projects.
-    <br />
+    <br>
     <a href="https://polite-crown-00833.herokuapp.com/">View Demo</a>
     ·
     <a href="https://github.com/parvashah-create/myPersonalSite/issues">Report Bug</a>
@@ -53,14 +53,14 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<br/>
+<br>
 <div align="center">
   <a href="https://polite-crown-00833.herokuapp.com/">
      <img src="public/images/home-landing.png" width="60%">
   </a>
 </div>
 
-
+<br>
 This a resume website I made to showcase the projects I have worked on thereby, displaying the skills I have gained.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -88,30 +88,29 @@ This is the source code of the website I have hosted on heroku. If you would lik
 The project is built as a node.js app. This includes HTML, CSS, JS, Bootstrap,Node.js  Jquery and other libraries. Details regarding dependencies can be found in package.json. Some features of the website include:
 * Animated Landing Pages:
 At the home landing, we can see beautiful responsive animation of particles moving and responding to the cursor. This was done using the particle.js library.
-<br/>
+At the Projects landing, we have an animated "Projects & Projects" Letters which move in a mesmerizing way. This effect was achieved using the animate.js and letterize.js libraries.
 <div align="center">
   <a href="https://polite-crown-00833.herokuapp.com/">
      <img src="public/images/home-landing.png" width="60%" object-fit="cover">
   </a>
-</div>
-<br/>
-At the Projects landing, we have an animated "Projects & Projects" Letters which move in a mesmerizing way. This effect was achieved using the animate.js and letterize.js libraries.
-<br/>
+</div
+
+<br>
+
 
 <div align="center">
   <a href="https://polite-crown-00833.herokuapp.com/projects">
      <img src="public/images/project-landing.png" width="60%" object-fit="cover">
   </a>
 </div>
+<br>
 
-<br/>
 * Projects Page:
 The projects page consists of cards which are created by extracted data from the mongoDB server. The Projects are displayed in form of cards which consists the basic information about the project and two buttons which links to the project source and a demo.
-<br/>
-
+<br>
 <div align="center">
   <a href="https://polite-crown-00833.herokuapp.com/projects">
-     <img src="public/images/project-landing.png" width="60%" object-fit="cover">
+     <img src="public/images/projects.png" width="60%" object-fit="cover">
   </a>
 </div>
 
@@ -167,7 +166,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Parva J Shah - [@Parvashah_](https://twitter.com/Parvashah_) - jmparvashah@gmail.com
+Parva J Shah - [Twitter](https://twitter.com/Parvashah_) - [Instagram](https://www.instagram.com/parva_shahh/) - [LinkedIn](https://www.linkedin.com/in/parva-j-shah-2394481a2/) - jmparvashah@gmail.com
 
 Project Link: [https://github.com/parvashah-create/myPersonalSite](https://github.com/parvashah-create/myPersonalSite)
 
