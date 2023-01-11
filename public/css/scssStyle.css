@@ -1279,7 +1279,7 @@ hr {
   color: #fff;
 }
 
-.card-container {
+.card-container:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
   outline-width: 0.25rem;
@@ -1288,7 +1288,7 @@ hr {
           transition-duration: 0.2s;
 }
 
-.card-container .project-img {
+.card-container:hover .project-img {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
   -webkit-transition: all 1s ease-in-out;
