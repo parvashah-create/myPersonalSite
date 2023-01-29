@@ -21,7 +21,7 @@
   <p align="center">
     Resume Website to host projects.
     <br>
-    <a href="https://polite-crown-00833.herokuapp.com/">View Demo</a>
+    <a href="https://parvasite.onrender.com/">View Demo</a>
     ·
     <a href="https://github.com/parvashah-create/myPersonalSite/issues">Report Bug</a>
     ·
@@ -55,7 +55,7 @@
 ## About The Project
 <br>
 <div align="center">
-  <a href="https://polite-crown-00833.herokuapp.com/">
+  <a href="https://parvasite.onrender.com/">
      <img src="public/images/home-landing.png" width="60%">
   </a>
 </div>
@@ -99,7 +99,7 @@ At the Projects landing, we have an animated "Projects & Projects" Letters which
 
 
 <div align="center">
-  <a href="https://polite-crown-00833.herokuapp.com/projects">
+  <a href="https://parvasite.onrender.com/projects">
      <img src="public/images/project-landing.png" width="60%" object-fit="cover">
   </a>
 </div>
@@ -110,7 +110,7 @@ At the Projects landing, we have an animated "Projects & Projects" Letters which
 The projects page consists of cards which are created by extracted data from the mongoDB server. The projects section also has filter button which filters through the project tags. The Projects are displayed in form of cards which consists the basic information about the project and two buttons which links to the project source and a demo.
 <br>
 <div align="center">
-  <a href="https://polite-crown-00833.herokuapp.com/projects">
+  <a href="https://parvasite.onrender.com/projects">
      <img src="public/images/projects.png" width="60%" object-fit="cover">
   </a>
 </div>
@@ -123,14 +123,14 @@ This page is secured through a authentication page which consists of login and p
 <br>
 
 <div align="center">
-  <a href="https://polite-crown-00833.herokuapp.com/projects">
+  <a href="https://parvasite.onrender.com/projects">
      <img src="public/images/projects-compose.png" width="60%" object-fit="cover">
   </a>
 </div>
 
 <br>
 <div align="center">
-  <a href="https://polite-crown-00833.herokuapp.com/projects">
+  <a href="https://parvasite.onrender.com/projects">
      <img src="public/images/project-auth.png" width="60%" object-fit="cover">
   </a>
 </div>
